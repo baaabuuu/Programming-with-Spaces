@@ -62,7 +62,7 @@ ITuple message = inbox.Get(typeof(string));
 ```
 Java
 ```java
-Object[] tuple = inbox.get(new FormalField(String.class())
+Object[] tuple = inbox.get(new FormalField(String.class));
 ```
 Swift
 ```swift
